@@ -93,9 +93,9 @@ server.get("/wallpost", function(req,res){
 				//	req.end();
 				// });
 				
-				console.log("Wall Post loaded..." )
+				console.log("Post cargados..." )
 			} else {
-				res.send("Ups! \nReload Please");
+				res.send("Ups! \n Actualice por favore");
 				console.log("ERROR tratando de obtener wall posts!");
 				req.end();
 			}
@@ -104,6 +104,5 @@ server.get("/wallpost", function(req,res){
 		
 	});
 });
-var PORT = '3000';
-server.listen(PORT);
-console.log("Port Listening at: " + PORT);
+server.listen(3000);
+console.log("Servidor en http://localhost:" + server.address().port);

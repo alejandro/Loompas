@@ -11,7 +11,7 @@ Site.prototype.authenticated = function(req, res, next) {
                 }
                 );
     } else {
-        next(new Error('No OAuth information stored in the session. How did you get here?'));
+        next(new Error('No OAuth se guardo información de la session. Como llegaste aqui?'));
     }
 };
  

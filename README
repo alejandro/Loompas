@@ -1,4 +1,10 @@
-De Uso interno...
+## De Uso interno...
+ 
 Autenticación de FB & Twitter usando el modulo "auth" para nodeJS... 
-Actualmente es código puro, no esta testiado.
+Actualmente es código escrito al azar, pruebas básicas sin realizar.
+
+
 Si lo usas es bajo tu propio riesgo.
+
+## Author
+[Alejandro Morales](http://alejandromorales.co.cc)
